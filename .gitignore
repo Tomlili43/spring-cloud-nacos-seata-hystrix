@@ -4,7 +4,9 @@
 *.class
 *.iml
 /*/*.iml
-
+#ignore target folder
+target/
+.vscode/
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 # Package Files #

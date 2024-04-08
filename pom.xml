@@ -5,18 +5,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.heima</groupId>
-    <artifactId>heima-leadnews</artifactId>
+    <artifactId>leadnews</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>heima-leadnews-common</module>
-        <module>heima-leadnews-utils</module>
-        <module>heima-leadnews-model</module>
-        <module>heima-leadnews-services</module>
-        <module>heima-leadnews-basic</module>
-        <module>heima-leadnews-gateways</module>
-        <module>heima-leadnews-feign</module>
-        <module>heima-leadnews-basic/heima-file-spring-boot-starter</module>
+        <module>leadnews-common</module>
+        <module>leadnews-utils</module>
+        <module>leadnews-model</module>
+        <module>leadnews-services</module>
+        <module>leadnews-basic</module>
+        <module>leadnews-gateways</module>
+        <module>leadnews-feign</module>
+        <module>leadnews-basic/file-spring-boot-starter</module>
     </modules>
     <!-- 继承Spring boot工程 -->
     <parent>
@@ -76,17 +76,17 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <artifactId>heima-leadnews-common</artifactId>
+                <artifactId>leadnews-common</artifactId>
                 <groupId>com.heima</groupId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <artifactId>heima-leadnews-model</artifactId>
+                <artifactId>leadnews-model</artifactId>
                 <groupId>com.heima</groupId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <artifactId>heima-leadnews-utils</artifactId>
+                <artifactId>leadnews-utils</artifactId>
                 <groupId>com.heima</groupId>
                 <version>${project.version}</version>
             </dependency>
